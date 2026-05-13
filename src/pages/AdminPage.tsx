@@ -28,7 +28,7 @@ export default function AdminPage() {
   }, []);
 
   const handlePasswordSubmit = async () => {
-    if (password === 'belle-admin' || password === 'nover-admin') {
+    if (password === 'Dazzy@123' || password === 'nover-admin') {
       setPasswordRequired(false);
       setPasswordError(false);
       await loadData();
