@@ -16,5 +16,5 @@
 //  device and browser that visits your hosted site.
 // ============================================================
 
-export const JSONBIN_API_KEY = '';   // ← Paste your Master Key here
-export const JSONBIN_BIN_ID  = '';   // ← Paste your Bin ID here
+export const JSONBIN_API_KEY = '$2a$10$wvUyMoeqEMJEx.C.Bsap4OfQyhsJByxpUjGiVrU3RuUeF/kSG77WK';   // ← Paste your Master Key here
+export const JSONBIN_BIN_ID  = '69e9dbc636566621a8e21c82';   // ← Paste your Bin ID here
