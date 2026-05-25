@@ -17,7 +17,7 @@ export default function ConfirmationPage() {
 
   const [loading, setLoading] = useState(true);
   const [progress, setProgress] = useState(0);
-  const [stageText, setStageText] = useState('Securing giveaway token entry...');
+  const [stageText, setStageText] = useState('Securing order confirmation...');
   const [savedStatus, setSavedStatus] = useState(false);
 
   useEffect(() => {
@@ -86,7 +86,7 @@ export default function ConfirmationPage() {
     const checkpoints = [
       { at: 0, text: 'Encrypting verification destination info...' },
       { at: 20, text: 'Contacting US logistics routing hub...' },
-      { at: 45, text: 'Executing giveaway slash parameters...' },
+      { at: 45, text: 'Processing order pricing and payment authorization...' },
       { at: 70, text: 'Verifying active bank routing checksums...' },
       { at: 90, text: 'Generating unique custom tracking token...' }
     ];
@@ -192,7 +192,7 @@ export default function ConfirmationPage() {
           </div>
 
           <div className="pt-4 border-t border-rose-50 flex items-center justify-between">
-            <span className="text-sm font-serif font-medium text-rose-950">Giveaway Total Settled</span>
+            <span className="text-sm font-serif font-medium text-rose-950">Total Settled</span>
             <span className="text-xl font-serif font-bold text-rose-600">${payloadData.totalAmount.toFixed(2)}</span>
           </div>
         </div>

@@ -164,7 +164,7 @@ export default function VerificationPage() {
           <div className="border-b border-rose-50 pb-4 mb-6">
             <h2 className="text-2xl font-serif font-bold text-rose-950">Shipping & Identity Verification</h2>
             <p className="text-xs text-rose-950/60 mt-1 font-sans">
-              Enter the legal dispatch destination address. giveaway dispatch restricted strictly to US regions.
+              Enter the legal dispatch destination address. Shipping is currently restricted strictly to US regions.
             </p>
           </div>
 

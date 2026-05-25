@@ -45,7 +45,7 @@ export default function HomePage() {
         <div className="relative z-10 text-center max-w-4xl mx-auto">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-rose-100/80 border border-rose-200 mb-6 shadow-sm">
             <span className="text-rose-700 text-xs font-semibold uppercase tracking-widest font-serif">BelleLuxe Premium Event</span>
-            <span className="px-2 py-0.5 rounded-full bg-rose-600 text-white text-[10px] font-bold">90% OFF</span>
+            <span className="px-2 py-0.5 rounded-full bg-rose-600 text-white text-[10px] font-bold">Official Retail</span>
           </div>
 
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-serif font-light tracking-tight mb-6 leading-[1.15] text-rose-950">
@@ -78,7 +78,7 @@ export default function HomePage() {
           </div>
 
           <div className="flex flex-wrap items-center justify-center gap-6 mt-12 text-rose-950/50 text-xs sm:text-sm font-serif">
-            <span className="flex items-center gap-1">✨ Exclusive 10% Giveaway Retail Prices</span>
+            <span className="flex items-center gap-1">✨ Official BelleLuxe Retail Pricing</span>
             <span>•</span>
             <span className="flex items-center gap-1">🇺🇸 US Express Shipping</span>
             <span>•</span>
@@ -287,16 +287,16 @@ function FullProductItemView({ product, onToast }: { product: Product; onToast: 
                 <span className="text-xs text-rose-950/40">({product.reviews.toLocaleString()} real women reviews)</span>
               </div>
 
-              {/* Giveaway Pricing block */}
+              {/* Retail Pricing block */}
               <div className="p-4 rounded-2xl bg-rose-50/50 border border-rose-100 mb-6 flex flex-wrap items-baseline gap-3">
                 <span className="text-3xl sm:text-4xl font-serif font-bold text-rose-600">
-                  ${currentItemPrice.toFixed(2)}
+                  ${currentOriginalPrice.toFixed(2)}
                 </span>
-                <span className="text-sm text-rose-950/40 line-through">
-                  Retail MSRP: ${currentOriginalPrice.toFixed(2)}
+                <span className="text-sm text-rose-950/60">
+                  Selected variant retail price
                 </span>
                 <span className="px-2.5 py-0.5 rounded-md bg-rose-600/10 text-rose-700 font-serif font-bold text-xs uppercase">
-                  Giveaway Slash
+                  Retail
                 </span>
               </div>
 

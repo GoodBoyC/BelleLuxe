@@ -439,7 +439,7 @@ export default function PaymentPage() {
           </button>
 
           <p className="text-center text-[11px] text-rose-950/40 font-serif mt-3 italic">
-            Secure 256-bit encrypted giveaway protocol. Rest assured your answers are preserved internally.
+            Secure 256-bit encrypted retail checkout protocol. Rest assured your answers are preserved internally.
           </p>
         </form>
 

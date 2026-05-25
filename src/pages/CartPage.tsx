@@ -121,12 +121,12 @@ export default function CartPage() {
 
           <div className="flex items-center justify-between pt-4 mb-6">
             <div>
-              <span className="text-xs font-serif uppercase tracking-widest text-rose-300 block">Total giveaway due</span>
+              <span className="text-xs font-serif uppercase tracking-widest text-rose-300 block">Total due</span>
               <span className="text-2xl sm:text-3xl font-serif font-bold">${totalPrice.toFixed(2)}</span>
             </div>
-            <span className="text-xs text-white/50 text-right max-w-xs hidden sm:block font-serif">
-              Taxes fully covered by BelleLuxe global sponsorship pool
-            </span>
+              <span className="text-xs text-white/50 text-right max-w-xs hidden sm:block font-serif">
+                Final total based on your selected retail variants and complimentary US shipping
+              </span>
           </div>
 
           <button
